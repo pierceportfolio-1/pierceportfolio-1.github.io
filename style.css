@@ -26,10 +26,36 @@ body {
 nav {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
-  background: var(--obsidian);
+  background: #000000;
+  z-index: 999;
+  border-bottom: 1px solid #222;
   padding: 1rem 0;
-  z-index: 1000;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 0;
+}
+
+nav li a {
+  text-decoration: none;
+  color: var(--white);
+  letter-spacing: 0.06em;
+  padding: 0.5rem 0;
+  transition: all 0.2s ease-in-out;
+  font-size: 0.95rem;
+}
+
+nav li a:hover {
+  border-bottom: 2px solid var(--orange);
+  color: var(--orange);
 }
 
 nav ul {
