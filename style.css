@@ -2,7 +2,7 @@
   --white: #f8f8f8;
   --obsidian: #0d0d0d;
   --anthracite: #1c1c1c;
-  --rockgray: #4e4e4e;
+  --genmetal: #353E43;
   --orange: #ff6f00;
   --red: #b22222;
   --azul: #1e88e5;
@@ -80,7 +80,7 @@ nav a:hover {
 .hero {
   padding-top: 80px;
   height: 90vh;
-  background: var(--rockgray);
+  background: #353E43;
   color: var(--white);
   display: flex;
   flex-direction: column;
@@ -110,8 +110,10 @@ nav a:hover {
 }
 
 .alt {
-  background-color: #f2f2f2;
+  background-color: var(--genmetal);
+  color: var(--white);
 }
+
 
 h2 {
   font-size: 2rem;
@@ -169,7 +171,7 @@ p {
 footer {
   text-align: center;
   padding: 40px 20px;
-  background: var(--obsidian);
+  background: var(--genmetal);
   color: var(--white);
   font-size: 0.9rem;
 }
