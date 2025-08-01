@@ -15,7 +15,6 @@ body {
   font-family: 'Archivo Black', sans-serif;
   background: var(--white);
   color: var(--obsidian);
-  text-transform: uppercase;
   line-height: 1.5;
 }
 .hero {
